@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+input {
+    padding: 7px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 7px;
+    border-width: 1px;
+    border-radius: 5px;
+}
