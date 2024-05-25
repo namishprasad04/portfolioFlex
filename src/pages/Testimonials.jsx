@@ -3,14 +3,14 @@ import Testimonial from "../components/Testimonial";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "The team at Acme Inc. delivered an exceptional website that has significantly improved our online presence. Their attention to detail and creative approach were truly impressive.",
+      quote: "The team at PortfolioFlex delivered an exceptional website that has significantly improved our online presence. Their attention to detail and creative approach were truly impressive.",
       image: 'https://randomuser.me/api/portraits/women/1.jpg',
       author: "Jane Doe",
       role: "CEO",
       company: "Acme Corp"
     },
     {
-      quote: "Acme Inc. has been an invaluable partner in our digital transformation. Their team's expertise and responsiveness have been instrumental in the success of our new website and marketing campaigns.",
+      quote: "PortfolioFlex has been an invaluable partner in our digital transformation. Their team's expertise and responsiveness have been instrumental in the success of our new website and marketing campaigns.",
       image: 'https://randomuser.me/api/portraits/men/3.jpg',
       author: "John Smith",
       role: "Marketing Director",
@@ -18,27 +18,27 @@ export default function Testimonials() {
     },
     {
       image: 'https://randomuser.me/api/portraits/women/3.jpg',
-      quote: "I was hesitant to work with a new agency, but Acme Inc. exceeded all of my expectations. Their team's creativity and attention to detail have been instrumental in the success of our brand.",
+      quote: "I was hesitant to work with a new agency, but PortfolioFlex exceeded all of my expectations. Their team's creativity and attention to detail have been instrumental in the success of our brand.",
       author: "Sarah Lee",
       role: "Brand Manager",
       company: "Stark Industries"
     },
     {
-      quote: "Acme Inc. has been a true partner in our digital marketing efforts. Their team's expertise and strategic guidance have been invaluable in helping us reach our target audience and achieve our business goals.",
+      quote: "PortfolioFLex has been a true partner in our digital marketing efforts. Their team's expertise and strategic guidance have been invaluable in helping us reach our target audience and achieve our business goals.",
       image: 'https://randomuser.me/api/portraits/men/5.jpg',
       author: "Michael Johnson",
       role: "Digital Marketing Manager",
       company: "Stark Industries"
     },
     {
-      quote: "Acme Inc. has been an invaluable partner in our digital transformation. Their team's expertise and responsiveness have been instrumental in the success of our new website and marketing campaigns.",
+      quote: "PortfolioFLex has been an invaluable partner in our digital transformation. Their team's expertise and responsiveness have been instrumental in the success of our new website and marketing campaigns.",
       image: 'https://randomuser.me/api/portraits/men/6.jpg',
       author: "Emily Davis",
       role: "Marketing Director",
       company: "Globex Inc."
     },
     {
-      quote: "I was hesitant to work with a new agency, but Acme Inc. exceeded all of my expectations. Their team's creativity and attention to detail have been instrumental in the success of our brand.",
+      quote: "I was hesitant to work with a new agency, but PortfolioFlex exceeded all of my expectations. Their team's creativity and attention to detail have been instrumental in the success of our brand.",
       image: 'https://randomuser.me/api/portraits/men/2.jpg',
       author: "David Lee",
       role: "Brand Manager",
