@@ -85,10 +85,7 @@ export default function HomePage() {
       <section data-aos="fade-up" className="w-full mb-20">
         <div className="container mx-auto grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:px-6 lg:grid-cols-3 lg:gap-8 xl:gap-12">
           {Templates.map(({index,title,about,image}) => (
-            <div  data-aos="zoom-in-right" key={index} className="group relative overflow-hidden rounded-lg">
-              <a className="absolute inset-0 z-10" href="#home">
-                <span className="sr-only">View Project</span>
-              </a>
+            <div data-aos="zoom-in-right" key={index} className="group relative overflow-hidden rounded-lg">
               <img
                 alt={`Project ${index + 1}`}
                 className="aspect-[4/3] w-full object-cover transition-all duration-300 group-hover:scale-105"
