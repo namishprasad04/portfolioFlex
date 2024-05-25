@@ -43,7 +43,7 @@ export default function HomePage() {
 
   return (
     
-    <main id="home" className="flex flex-col gap-12 md:gap-16 lg:gap-20 bg-gray-100">
+    <main data-aos="fade-right" id="home" className="flex flex-col gap-12 md:gap-16 lg:gap-20 bg-gray-100">
       <section className="w-full mt-24">
         <div className="container mx-auto grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
           <img

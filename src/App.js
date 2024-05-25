@@ -6,11 +6,12 @@ import Nav from "./pages/Nav";
 import Offer from "./pages/Offer";
 import Testimonials from "./pages/Testimonials";
 
+
 function App() {
   return (
     <div>
       <Nav/>
-      <HomePage/>
+      <HomePage data-aos="fade-right"/>
       <About/>
       <Offer/>
       <Testimonials/>
