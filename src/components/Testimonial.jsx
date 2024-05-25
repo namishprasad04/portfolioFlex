@@ -1,6 +1,6 @@
 export default function Testimonial({ quote, author, role, company,image }) {
   return (
-    <div className="flex flex-col items-start gap-3 rounded-lg bg-white p-6 shadow-sm transition-colors hover:bg-gray-50">
+    <div  data-aos="flip-right" className="flex flex-col items-start gap-3 rounded-lg bg-white p-6 shadow-sm transition-colors hover:bg-gray-50">
       <blockquote className="flex-1">
         <p className="text-gray-500 ">{quote}</p>
       </blockquote>

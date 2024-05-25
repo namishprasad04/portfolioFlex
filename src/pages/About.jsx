@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about" className="w-full py-24 bg-gray-100">
-      <div className="container mx-auto grid grid-cols-1 gap-6 px-4 md:grid-cols-1 md:px-6 lg:grid-cols-1 lg:gap-8 xl:gap-12">
+      <div data-aos="fade-up-right" className="container mx-auto grid grid-cols-1 gap-6 px-4 md:grid-cols-1 md:px-6 lg:grid-cols-1 lg:gap-8 xl:gap-12">
         <div className="rounded-lg bg-white p-4 shadow-lg  md:w-full">
           <h3 className="text-5xl font-semibold p-5">About Us</h3>
           <div className="mt-4 space-y-5 p-5">

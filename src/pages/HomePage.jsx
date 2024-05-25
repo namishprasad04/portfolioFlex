@@ -43,8 +43,8 @@ export default function HomePage() {
 
   return (
     
-    <main data-aos="fade-right" id="home" className="flex flex-col gap-12 md:gap-16 lg:gap-20 bg-gray-100">
-      <section className="w-full mt-24">
+    <main id="home" className="flex flex-col gap-12 md:gap-16 lg:gap-20 bg-gray-100">
+      <section data-aos="fade-down" className="w-full mt-24">
         <div className="container mx-auto grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
           <img
             alt="Hero Product"
@@ -82,10 +82,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="w-full mb-20">
+      <section data-aos="fade-up" className="w-full mb-20">
         <div className="container mx-auto grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:px-6 lg:grid-cols-3 lg:gap-8 xl:gap-12">
           {Templates.map(({index,title,about,image}) => (
-            <div key={index} className="group relative overflow-hidden rounded-lg">
+            <div  data-aos="zoom-in-right" key={index} className="group relative overflow-hidden rounded-lg">
               <a className="absolute inset-0 z-10" href="#home">
                 <span className="sr-only">View Project</span>
               </a>
