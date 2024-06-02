@@ -11,33 +11,33 @@ export default function HomePage() {
     },
     {
       id: 2,
-      title: 'Branding Portfolio',
-      about: "branding",
-      image: "https://img.freepik.com/premium-vector/geometric-landing-page_32854-203.jpg?w=1380"
+      title: 'Data Science Portfolio',
+      about: "Data Science",
+      image: "https://d33wubrfki0l68.cloudfront.net/6293cde987189703466dd59ae784f5fdff73dac8/1f2f0/en/blog/uploads/ger-inberg-1.jpg"
     },
     {
       id: 3,
-      title: 'Illustration Portfolio',
-      about: "illustration" ,
-      image: "https://img.freepik.com/free-vector/bloggers-influencers-writing-articles-posting-content-blog-authors-using-laptops-shouting-megaphone-landing-page_74855-17672.jpg?t=st=1716558004~exp=1716561604~hmac=14e9588aea79a377e5406e3dcb009811b80a0c7ca61b8dde191f5d53a435c702&w=1380"
+      title: 'Web Devloper',
+      about: "web developer" ,
+      image: "https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/06/Portfolio-of-the-front-end-developer-Olaolu-Olawuyi.webp"
     },
     {
       id: 4,
       title: "Motion Design Portfolio",
       about: "motion design",
-      image: "https://img.freepik.com/free-vector/motiongraphics-landing-page-with-illustrations_23-2148905913.jpg?t=st=1716558067~exp=1716561667~hmac=6e8bd8ae5033e4e1efa1a2a30c4c86ac6eb1ddf8e2f03987e91fa93df64c4954&w=1380"
+      image: "https://marketplace.canva.com/EAFb6ulQkLM/2/0/1600w/canva-brand-agency-portfolio-website-in-white-black-sleek-monochrome-style-VPXYcBtq8h8.jpg"
     },
     {
       id: 5,
       title: "Photography Portfolio",
       about: "photography",
-      image: "https://img.freepik.com/free-vector/gradient-photographer-landing-page_23-2150269012.jpg?t=st=1716558214~exp=1716561814~hmac=bae1c69a8890fa0f1b03dbf6095092586af3ecbd82a02637343849640fe3c562&w=1380"
+      image: "https://s.tmimgcdn.com/scr/800x500/274300/zoomin-photography-portfolio-website-template_274341-original.jpg"
     },
     {
       id: 6,
       title: "UI/UX Design Portfolio",
       about: "ui/ux",
-      image: "https://img.freepik.com/free-psd/user-interface-design-website-template_23-2149182791.jpg?t=st=1716558337~exp=1716561937~hmac=79f5e3dc8d3b43b4d5a4df124bf08302d54474aabf3e0f2522116507dd52e140&w=1380"
+      image: "https://s3-alpha.figma.com/hub/file/3963839778/53d9d126-1607-4baf-b2d3-d974560ac38e-cover.png"
     },
   ]
 
@@ -50,7 +50,7 @@ export default function HomePage() {
             alt="Hero Product"
             className="mx-auto aspect-video overflow-hidden rounded-xl object-contain sm:w-full lg:order-last"
             height={600}
-            src="https://img.freepik.com/free-photo/admin-apartment-exasperated-by-annoying-bugs-while-programming_482257-83163.jpg?t=st=1716560386~exp=1716563986~hmac=cbfb45d301911ded3893ec808053f1f9c3c03e132597581ea4962baec0ea46bf&w=1480"
+            src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
             width={800}
             loading="lazy"
           />
@@ -83,6 +83,9 @@ export default function HomePage() {
         </div>
       </section>
       <section data-aos="fade-up" className="w-full mb-20">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold py-10">We can provide you with</h1>
+        </div>
         <div className="container mx-auto grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:px-6 lg:grid-cols-3 lg:gap-8 xl:gap-12">
           {Templates.map(({index,title,about,image}) => (
             <div data-aos="zoom-in-right" key={index} className="group relative overflow-hidden rounded-lg">
@@ -97,7 +100,7 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-white transition-all duration-300 group-hover:bottom-4">
                 <h3 className="text-lg font-semibold">{title}</h3>
-                <p className="text-sm">Showcasing my {about} work</p>
+                {/* <p className="text-sm">Showcasing my {about} work</p> */}
               </div>
             </div>
           ))}
